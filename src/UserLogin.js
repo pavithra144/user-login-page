@@ -8,6 +8,7 @@ import { SignUp } from "./SignUp";
 export const UserLogin = () => {
   const [submit, setSubmit] = useState("");
   const [signup, setSignup] = useState(false)
+  const [email, setEmail] = useState("");
   const [pwd, setPwd] = useState("");
 
   //pwd validation
@@ -19,15 +20,16 @@ export const UserLogin = () => {
   
   const elementEmail = <FontAwesomeIcon icon={faEnvelope} />
   const elementLock = <FontAwesomeIcon icon={faLock} />
+
+
+  
   return (    
     <div className="header">
       <form className="form-center">
         {signup ? <div><SignUp/></div> :<div>
           
           <h2 className="login-header">Login</h2>
-        
         {elementEmail}
-        <FontAwesomeIcon icon={["fas", "coffee"]} />
         <label type="text">Email</label>
         <input type="text"  className="in-one" placeholder="Enter your Email..." />
         {elementLock}
@@ -35,28 +37,24 @@ export const UserLogin = () => {
           Password
         </label>
         <input type="password"  placeholder="Enter Password..." />
-        <i class="fas fa-lock"></i>
         <button
           href="link"
           type="submit"
-          value={submit}
           className="login"
-          onClick={() => setSubmit(document.write("you are in"))}
+          onClick={() => setSubmit()}
         >
           Login
         </button>
         <button
           href="link"
           type="submit"
-          value={submit}
           className="login"
           onClick={() => setSignup(true) }
         >
           signup
         </button>
-          </div> }
-        
-        {/* <a type = "submit" className="login" >Sign up</a> */}
+          </div> 
+        }
       </form>
     </div>
   );

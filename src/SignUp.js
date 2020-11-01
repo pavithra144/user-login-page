@@ -30,15 +30,6 @@ export const SignUp = () => {
           type="submit"
           //   value={submit}
           className="login"
-          //   onClick={() => setSubmit(document.write("you are in"))}
-        >
-          Login
-        </button>
-        <button
-          href="link"
-          type="submit"
-          //   value={submit}
-          className="login"
           //   onClick={() => setSignup(true) }
         >
           signup
