@@ -1,0 +1,62 @@
+.header{
+    height: 500px;
+    width: 300px;
+    position: relative;
+    border: 3px solid lightgray;
+    border-radius: 8px; 
+    margin: auto;
+    top: 30px;
+}
+.password{
+    margin-top: 20px;
+}
+.login-header{
+    left:40px;
+    text-align: center;
+}
+.form-center{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  /* padding: 10px; */
+}
+input[type = text],select{
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type = password],select{
+    width: 100%;
+    padding: 10px 10px;
+    margin: 8px 0;
+    display: block;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type = submit]{
+    width: 100%;
+    background-color: aliceblue;
+    color: white;
+
+}
+.login{
+    padding: 5px 10px 5px 10px;   
+    color: dodgerblue; 
+    font-size: 15px;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+/* .in-one{
+    margin: 70px;
+} */
