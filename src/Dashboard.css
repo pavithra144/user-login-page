@@ -1,0 +1,15 @@
+.dashboard-header {
+  background-color: rgb(70, 67, 67);
+  height: 45rem;
+  width: 16%;
+  padding: 5px;
+}
+.dashboard-list-header {
+  list-style-type: none;
+  padding: 10px;
+  text-align: justify;
+  font-size: 20px;
+}
+.dashboard-list {
+  padding: 10px;
+}
